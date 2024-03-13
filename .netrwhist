@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/kristogudmundsson/.local/share/nvim'
+let g:netrw_dirhist_2='/Users/kristogudmundsson/.local/share/nvim/lua'
+let g:netrw_dirhist_1='/Users/kristogudmundsson/.local/share/nvim'
+let g:netrw_dirhist_0='/Users/kristogudmundsson/.local/share/nvim/lua'
+let g:netrw_dirhist_9='/Users/kristogudmundsson/.local/share/nvim'
+let g:netrw_dirhist_8='/Users/kristogudmundsson/.local/share/nvim/lua'
+let g:netrw_dirhist_7='/Users/kristogudmundsson/.local/share/nvim'
+let g:netrw_dirhist_6='/Users/kristogudmundsson/.local/share/nvim/lua'
+let g:netrw_dirhist_5='/Users/kristogudmundsson/.local/share/nvim'
+let g:netrw_dirhist_4='/Users/kristogudmundsson/.local/share/nvim/lua'
