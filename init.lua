@@ -1,5 +1,4 @@
 require("Kriswhyte")
-
 --Configura þetta allt upp nýtt færa alveg fremst þegar tími gefst og splitta plugins upp í mismunandi file
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
