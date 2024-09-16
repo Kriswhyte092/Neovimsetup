@@ -1,4 +1,5 @@
-require("Kriswhyte")
+require("Kriswhyte.remap")
+
 --Configura þetta allt upp nýtt færa alveg fremst þegar tími gefst og splitta plugins upp í mismunandi file
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then
@@ -15,8 +16,12 @@ vim.opt.rtp:prepend(lazypath)
 
 
 local opts = {}
-require("lazy").setup('plugins')
---Lazy plugin require calls 
+require("lazy").setup(require("lazy").setup({
+  spec = {
+    { import = "plugins" },
+  },
+}))
+
 
 
 local harpoon = require("harpoon")
